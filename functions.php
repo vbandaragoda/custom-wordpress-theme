@@ -139,6 +139,9 @@ add_action( 'widgets_init', 'custom_shopping_mall_theme_widgets_init' );
  */
 function custom_shopping_mall_theme_scripts() {
 	wp_enqueue_style( 'custom-shopping-mall-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'custom-shopping-mall-theme-main', get_template_directory_uri() . '/css/main.min.css' );
+	wp_enqueue_style( 'bootstrap-icons', 'href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css' );
+
 	wp_style_add_data( 'custom-shopping-mall-theme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'custom-shopping-mall-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -148,6 +151,23 @@ function custom_shopping_mall_theme_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'custom_shopping_mall_theme_scripts' );
+
+
+
+
+
+/**
+ * Custom fonts.
+ */
+function enqueue_custom_fonts() {
+	if(!is_admin()) {
+		wp_register_style('source_sans_pro', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+		wp_enqueue_style('source_sans_pro');
+	}
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_fonts');
+
+
 
 /**
  * Implement the Custom Header feature.
