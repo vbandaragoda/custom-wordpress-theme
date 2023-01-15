@@ -40,6 +40,7 @@ get_header();
 		</div>
 	</section>
 
+
 	<section id="shops-section">
 		<div class="container-lg shops mb-5 mt-5">
 
