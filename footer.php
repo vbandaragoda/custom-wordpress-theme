@@ -95,7 +95,6 @@
 
 				<div class="d-flex justify-content-center pt-4 mt-4 border-top">
 					<p>&copy; 2023 Company. All rights reserved.</p>
-
 				</div>
 			</footer>
 		</div>
