@@ -967,3 +967,20 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+/*Search*/
+
+.search-form{
+	position: relative;
+	border: none;
+	border-color: #343435;
+}
+
+.search-form .search-submit{
+	bottom: 0px;
+    padding: 0px 15px 3px 15px;
+    position: absolute;
+    right: -45px;
+    top: 0px;
+}
+

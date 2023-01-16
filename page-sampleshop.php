@@ -31,8 +31,12 @@ get_header();
 						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 					<div class="intro-buttons d-flex justify-content-center align-items-center gap-5 mt-4">
-						<button type="button" class="btn btn-outline-light">LEARN MORE</button>
-						<button type="button" class="btn btn-outline-light">CONTACT US</button>
+						<a href="#shop-details">
+							<button type="button" class="btn btn-outline-light">LEARN MORE</button>
+						</a>
+						<a href="#shop-details">
+							<button type="button" class="btn btn-outline-light">CONTACT US</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -115,7 +119,9 @@ get_header();
 						<h3>
 							Website
 						</h3>
-						<p>www.sampleshop.com</p>
+						<a href="www.sampleshop.com" class="text-decoration-none">
+							<p class="text-decoration-none">www.sampleshop.com</p>
+						</a>
 					</div>
 
 				</div>
@@ -128,7 +134,7 @@ get_header();
 	<section id="gallery">
 		<div class="container-lg">
 			<div class="carousel-header mb-4">
-				<h1 >GALLERY</h1>
+				<h1>GALLERY</h1>
 			</div>
 			<div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
 				<div class="carousel-inner">
