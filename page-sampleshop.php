@@ -19,7 +19,7 @@ get_header();
 
 	<section class="shopping-sample">
 		<div class="shopping-sample-masthead"
-			style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/sampleshop-img.jpg');">
+			style="background-image: url(<?php echo get_template_directory_uri() . '/img/sampleshop-img.jpg' ?>);">
 			<div class="shopping-sample-color-overlay d-flex align-items-center">
 				<div class="shopping-sample-text">
 					<h1>THE<br>SAMPLE SHOP</h1>

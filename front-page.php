@@ -19,7 +19,7 @@ get_header();
 
 	<section id="intro">
 		<div class="masthead"
-			style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/intro-img.jpg');">
+			style="background-image: url(<?php echo get_template_directory_uri() . '/img/intro-img.jpg' ?>);">
 			<div class="color-overlay d-flex justify-content-center align-items-center">
 				<div class="intro-text">
 					<h1>GET THE BEST <br>SHOPPING EXPERIENCE</h1>
@@ -185,7 +185,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -217,7 +217,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -249,7 +249,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -281,7 +281,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -313,7 +313,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -345,7 +345,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -377,7 +377,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
@@ -409,7 +409,7 @@ get_header();
 				<div class="col-md-6 col-lg-3">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
 								alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
