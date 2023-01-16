@@ -62,10 +62,8 @@ get_header();
 					</div>
 					<div class="col-12 col-lg-3">
 						<div class="input-group ">
-							<!-- <input type="text" class="form-control ps-3" placeholder="Search by store"
-								aria-label="Search by store" aria-describedby="button-addon2">
-							<button class="btn btn-outline-secondary" type="button" id="button-addon2">SEARCH</button> -->
-							<?php get_search_form(); ?>
+
+							<?php get_search_form() ?>
 						</div>
 					</div>
 				</div>
@@ -182,7 +180,7 @@ get_header();
 
 			<div class="row align-items-center d-flex justify-content-around">
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/card-img.jpg" class="card-img-top"
@@ -214,11 +212,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -246,11 +244,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -278,11 +276,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -310,11 +308,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -342,11 +340,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -374,11 +372,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
@@ -406,11 +404,11 @@ get_header();
 					</a>
 				</div>
 
-				<div class="col-md-6 col-lg-3">
+				<div class="col-sm-10 col-md-6 col-lg-3 d-flex align-items-center justify-content-around">
 					<a href="/sampleshop" class="text-decoration-none">
 						<div class="card border-0 shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
-							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?> class="card-img-top"
-								alt="shop-logo">
+							<img src=<?php echo get_template_directory_uri() . "/img/card-img.jpg" ?>
+								class="card-img-top" alt="shop-logo">
 							<div class="card-body">
 								<h5 class="card-title text-center pb-2 mb-4 text-secondary border-bottom border-light">
 									Sample Shop
