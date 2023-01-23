@@ -31,7 +31,28 @@
 			<!-- Breadcrumbs -->
 			<nav class="pt-3" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item active" aria-current="page">Home</li>
+					<?php
+					$current_page = $_SERVER['REQUEST_URI'];
+					$breadcrumb = explode("/", $current_page);
+					$breadcrumb_pages = array("home" => "");
+					$url = "";
+
+					foreach ($breadcrumb as $crumb) {
+						if (empty($crumb)) {
+							continue;
+						}
+
+						$url .= "/" . $crumb;
+						echo '<li class="breadcrumb-item">';
+						if (array_key_exists($crumb, $breadcrumb_pages)) {
+							echo '<a href="' . $url . '">' . $breadcrumb_pages[$crumb] . '</a>';
+						} else {
+							echo $crumb;
+						}
+						echo '</li>';
+					}
+					echo '<li class="breadcrumb-item active">' . end($breadcrumb_pages) . '</li>';
+					?>
 				</ol>
 			</nav>
 
